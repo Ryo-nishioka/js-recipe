@@ -11,6 +11,7 @@
     <button id="button-1">1.野球観戦</button>
     <button id="button-2">2.アニメ鑑賞</button>
     <button id="button-3">3.音楽鑑賞</button>
+    <img src="../images/sumple.png" alt="" id="image" />
     <script>
       // カウンターアプリに発展させてみましょう
 
@@ -19,7 +20,7 @@
       const button2 = document.getElementById("button-2")
       const button3 = document.getElementById("button-3")
       button3.onclick = function () {
-        display.textContent = "正解！"
+        document.getElementById("pics").src = "img"
       }
       button1.onclick = function () {
         display.textContent = "不正解"
